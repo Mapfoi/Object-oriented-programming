@@ -1,0 +1,17 @@
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab3_OOP\bin\Debug\net10.0-windows\Lab3_OOP.exe
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab3_OOP\bin\Debug\net10.0-windows\Lab3_OOP.deps.json
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab3_OOP\bin\Debug\net10.0-windows\Lab3_OOP.runtimeconfig.json
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab3_OOP\bin\Debug\net10.0-windows\Lab3_OOP.dll
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab3_OOP\bin\Debug\net10.0-windows\Lab3_OOP.pdb
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab3_OOP\obj\Debug\net10.0-windows\Lab3_OOP.Form1.resources
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab3_OOP\obj\Debug\net10.0-windows\Lab3_OOP.csproj.GenerateResource.cache
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab3_OOP\obj\Debug\net10.0-windows\Lab3_OOP.GeneratedMSBuildEditorConfig.editorconfig
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab3_OOP\obj\Debug\net10.0-windows\Lab3_OOP.AssemblyInfoInputs.cache
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab3_OOP\obj\Debug\net10.0-windows\Lab3_OOP.AssemblyInfo.cs
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab3_OOP\obj\Debug\net10.0-windows\Lab3_OOP.csproj.CoreCompileInputs.cache
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab3_OOP\obj\Debug\net10.0-windows\Lab3_OOP.sourcelink.json
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab3_OOP\obj\Debug\net10.0-windows\Lab3_OOP.dll
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab3_OOP\obj\Debug\net10.0-windows\refint\Lab3_OOP.dll
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab3_OOP\obj\Debug\net10.0-windows\Lab3_OOP.pdb
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab3_OOP\obj\Debug\net10.0-windows\Lab3_OOP.genruntimeconfig.cache
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab3_OOP\obj\Debug\net10.0-windows\ref\Lab3_OOP.dll
