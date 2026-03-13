@@ -1,0 +1,50 @@
+D:\Programs\Microsoft Visual Studio\Projects\Lab1_OOP\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.csproj.GenerateResource.cache
+D:\Programs\Microsoft Visual Studio\Projects\Lab1_OOP\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programs\Microsoft Visual Studio\Projects\Lab1_OOP\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.AssemblyInfoInputs.cache
+D:\Programs\Microsoft Visual Studio\Projects\Lab1_OOP\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.AssemblyInfo.cs
+D:\Programs\Microsoft Visual Studio\Projects\Lab1_OOP\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.csproj.CoreCompileInputs.cache
+D:\Programs\Microsoft Visual Studio\Projects\Lab1_OOP\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Form1.resources
+D:\Programs\Microsoft Visual Studio\Projects\Lab1_OOP\Lab1_OOP\Lab1_OOP\bin\Debug\net10.0-windows\Lab1_OOP.exe
+D:\Programs\Microsoft Visual Studio\Projects\Lab1_OOP\Lab1_OOP\Lab1_OOP\bin\Debug\net10.0-windows\Lab1_OOP.deps.json
+D:\Programs\Microsoft Visual Studio\Projects\Lab1_OOP\Lab1_OOP\Lab1_OOP\bin\Debug\net10.0-windows\Lab1_OOP.runtimeconfig.json
+D:\Programs\Microsoft Visual Studio\Projects\Lab1_OOP\Lab1_OOP\Lab1_OOP\bin\Debug\net10.0-windows\Lab1_OOP.dll
+D:\Programs\Microsoft Visual Studio\Projects\Lab1_OOP\Lab1_OOP\Lab1_OOP\bin\Debug\net10.0-windows\Lab1_OOP.pdb
+D:\Programs\Microsoft Visual Studio\Projects\Lab1_OOP\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.dll
+D:\Programs\Microsoft Visual Studio\Projects\Lab1_OOP\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\refint\Lab1_OOP.dll
+D:\Programs\Microsoft Visual Studio\Projects\Lab1_OOP\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.pdb
+D:\Programs\Microsoft Visual Studio\Projects\Lab1_OOP\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.genruntimeconfig.cache
+D:\Programs\Microsoft Visual Studio\Projects\Lab1_OOP\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\ref\Lab1_OOP.dll
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab1_OOP\Lab1_OOP\bin\Debug\net10.0-windows\Lab1_OOP.exe
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab1_OOP\Lab1_OOP\bin\Debug\net10.0-windows\Lab1_OOP.deps.json
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab1_OOP\Lab1_OOP\bin\Debug\net10.0-windows\Lab1_OOP.runtimeconfig.json
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab1_OOP\Lab1_OOP\bin\Debug\net10.0-windows\Lab1_OOP.dll
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab1_OOP\Lab1_OOP\bin\Debug\net10.0-windows\Lab1_OOP.pdb
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Form1.resources
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.csproj.GenerateResource.cache
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.GeneratedMSBuildEditorConfig.editorconfig
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.AssemblyInfoInputs.cache
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.AssemblyInfo.cs
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.csproj.CoreCompileInputs.cache
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.sourcelink.json
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.dll
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\refint\Lab1_OOP.dll
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.pdb
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.genruntimeconfig.cache
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab1_OOP\Lab1_OOP\obj\Debug\net10.0-windows\ref\Lab1_OOP.dll
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab2_OOP\Lab1_OOP\bin\Debug\net10.0-windows\Lab1_OOP.exe
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab2_OOP\Lab1_OOP\bin\Debug\net10.0-windows\Lab1_OOP.deps.json
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab2_OOP\Lab1_OOP\bin\Debug\net10.0-windows\Lab1_OOP.runtimeconfig.json
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab2_OOP\Lab1_OOP\bin\Debug\net10.0-windows\Lab1_OOP.dll
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab2_OOP\Lab1_OOP\bin\Debug\net10.0-windows\Lab1_OOP.pdb
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab2_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab2_OOP.Form1.resources
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab2_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.csproj.GenerateResource.cache
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab2_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.GeneratedMSBuildEditorConfig.editorconfig
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab2_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.AssemblyInfoInputs.cache
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab2_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.AssemblyInfo.cs
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab2_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.csproj.CoreCompileInputs.cache
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab2_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.sourcelink.json
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab2_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.dll
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab2_OOP\Lab1_OOP\obj\Debug\net10.0-windows\refint\Lab1_OOP.dll
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab2_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.pdb
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab2_OOP\Lab1_OOP\obj\Debug\net10.0-windows\Lab1_OOP.genruntimeconfig.cache
+Q:\Programs\Visual Studio\Projects\Object-oriented-programming\Lab2_OOP\Lab1_OOP\obj\Debug\net10.0-windows\ref\Lab1_OOP.dll

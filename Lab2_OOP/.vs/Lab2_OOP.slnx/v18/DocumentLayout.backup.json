@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Q:\\Programs\\Visual Studio\\Projects\\Object-oriented-programming\\Lab2_OOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2843D289-F82B-16B2-2A1E-5E5B9049C41E}|Lab2_OOP\\Lab2_OOP.csproj|q:\\programs\\visual studio\\projects\\object-oriented-programming\\lab2_oop\\lab2_oop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2843D289-F82B-16B2-2A1E-5E5B9049C41E}|Lab2_OOP\\Lab2_OOP.csproj|solutionrelative:lab2_oop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "Q:\\Programs\\Visual Studio\\Projects\\Object-oriented-programming\\Lab2_OOP\\Lab2_OOP\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab2_OOP\\Form1.cs",
+              "ToolTip": "Q:\\Programs\\Visual Studio\\Projects\\Object-oriented-programming\\Lab2_OOP\\Lab2_OOP\\Form1.cs",
+              "RelativeToolTip": "Lab2_OOP\\Form1.cs",
+              "ViewState": "AgIAAC8AAACAkpmZmZkdwNQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T18:44:12.92Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

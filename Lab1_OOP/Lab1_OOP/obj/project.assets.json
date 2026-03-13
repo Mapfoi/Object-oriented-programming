@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programs\\Microsoft Visual Studio\\Projects\\Lab1_OOP\\Lab1_OOP\\Lab1_OOP\\Lab1_OOP.csproj",
+      "projectUniqueName": "Q:\\Programs\\Visual Studio\\Projects\\Object-oriented-programming\\Lab1_OOP\\Lab1_OOP\\Lab1_OOP.csproj",
       "projectName": "Lab1_OOP",
-      "projectPath": "D:\\Programs\\Microsoft Visual Studio\\Projects\\Lab1_OOP\\Lab1_OOP\\Lab1_OOP\\Lab1_OOP.csproj",
+      "projectPath": "Q:\\Programs\\Visual Studio\\Projects\\Object-oriented-programming\\Lab1_OOP\\Lab1_OOP\\Lab1_OOP.csproj",
       "packagesPath": "C:\\Users\\sevae\\.nuget\\packages\\",
-      "outputPath": "D:\\Programs\\Microsoft Visual Studio\\Projects\\Lab1_OOP\\Lab1_OOP\\Lab1_OOP\\obj\\",
+      "outputPath": "Q:\\Programs\\Visual Studio\\Projects\\Object-oriented-programming\\Lab1_OOP\\Lab1_OOP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sevae\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -8,6 +8,7 @@ public class Form1 : Form
 
     static Form1()
     {
+        
         figures = new FigureList();
 
         figures.Add(new RectangleFigure(50, 50, 100, 60, Color.Blue));
@@ -23,11 +24,11 @@ public class Form1 : Form
 
         figures.Add(new Circle(50, 150, 40, Color.Purple));
 
-         figures.Add(new Triangle(
-            new Point(300, 150),
-            new Point(350, 220),
-            new Point(250, 220),
-            Color.Black));
+        figures.Add(new Triangle(
+           new Point(300, 150),
+           new Point(350, 220),
+           new Point(250, 220),
+           Color.Black));
     }
 
     protected override void OnPaint(PaintEventArgs e)
