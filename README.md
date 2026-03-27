@@ -1,642 +1,357 @@
+
 # 🚀 Roadmap изучения DevOps (6 месяцев)
 
-
-
-Формат: теория → сразу практика уровня “как в проде”.
-
-
+Формат: теория → сразу практика уровня “как в проде”.  
+Дополнено ссылками на официальные источники, YouTube-каналы и рекомендации по собеседованиям.
 
 ---
-
-
 
 # 🟢 Шаг 1 (Месяц 1). Linux и сети
 
-
-
 ## 1. Linux (операционная система)
 
-
-
-### Практика (делать обязательно на отдельной VM):
-
-
+### Практика:
 
 - Установить Ubuntu Server без GUI
+- Настроить пользователя без root
+- SSH по ключам, запрет password auth
+- fail2ban
+- systemd unit для собственного сервиса
+- Bash-скрипт бэкапа и логирования [Exercism](https://exercism.org/tracks/bash)
 
-- Настроить:
+- Разбор процессов (`top`, `htop`, `ps`, `lsof`)
+- Смонтировать второй диск
 
-&nbsp; - отдельного пользователя без root-доступа
+📚 Теория / документация:
 
-&nbsp; - SSH по ключам (запретить password auth)
-
-&nbsp; - fail2ban
-
-- Создать systemd unit для собственного сервиса (например Python HTTP сервер)
-
-- Написать bash-скрипт:
-
-&nbsp; - бэкап директории
-
-&nbsp; - логирование
-
-&nbsp; - rotation логов
-
-- Разобрать:
-
-&nbsp; - `top`, `htop`, `ps`, `lsof`
-
-&nbsp; - что происходит при `kill -9`
-
-- Смонтировать второй диск и настроить auto-mount через `/etc/fstab`
-
-
-
-🎯 Итог: ты умеешь администрировать Linux как junior sysadmin.
-
-
+- Linux kernel docs — https://docs.kernel.org  
+- systemd docs — https://www.freedesktop.org/wiki/Software/systemd/  
+- man7.org — https://man7.org/linux/man-pages/  
 
 ---
-
-
 
 ## 2. TCP/IP (сетевой стек)
 
-
-
 ### Практика:
 
+- Поднять 2 VM, статические IP, SSH
+- NAT-шлюз
+- Настроить firewall (открыть 80, закрыть всё остальное)
+- `tcpdump` для перехвата трафика
+- TLS handshake через `openssl s_client`
 
+📚 Теория:
 
-- Поднять 2 VM в одной сети
-
-- Настроить:
-
-&nbsp; - статические IP
-
-&nbsp; - SSH между ними
-
-- Сделать VM-шлюз с NAT
-
-- Настроить firewall:
-
-&nbsp; - открыть 80
-
-&nbsp; - закрыть всё остальное
-
-- Перехватить HTTP трафик через `tcpdump`
-
-- Разобрать TLS handshake через `openssl s_client`
-
-
-
-🎯 Итог: ты понимаешь, что реально происходит в сети.
-
-
+- IETF RFC — https://datatracker.ietf.org  
+- OpenSSH docs — https://www.openssh.com/manual.html  
+- nftables — https://wiki.nftables.org  
+- MDN HTTP — https://developer.mozilla.org  
 
 ---
-
-
 
 ## 3. KVM (виртуализация)
 
-
-
 ### Практика:
 
-
-
 - Развернуть VM через virt-manager
-
 - Настроить bridged network
-
-- Ограничить CPU / RAM
-
+- Ограничить CPU/RAM
 - Сделать snapshot
-
 - Смоделировать падение VM
 
+📚 Теория:
 
-
-🎯 Итог: понимаешь разницу VM vs bare metal.
-
-
+- https://www.linux-kvm.org  
+- https://www.virtualbox.org/wiki/Documentation  
 
 ---
-
-
 
 ## 4. Git (контроль версий)
 
-
-
 ### Практика:
 
+- Создать monorepo, настроить workflow
+- Rebase, squash, resolve конфликты
+- Pre-commit hook
+- CI pipeline на push
 
+📚 Теория:
 
-- Создать monorepo
-
-- Сделать feature branch workflow
-
-- Сделать:
-
-&nbsp; - rebase
-
-&nbsp; - squash
-
-&nbsp; - resolve конфликт
-
-- Настроить pre-commit hook
-
-- Настроить CI pipeline на push
-
-
-
-🎯 Итог: умеешь работать в команде.
-
-
+- https://git-scm.com/docs  
+- https://docs.github.com  
+- https://docs.gitlab.com  
 
 ---
-
-
 
 # 🟢 Шаг 2 (Месяц 2). Docker
 
-
-
-## 1. Docker (контейнеризация)
-
-
+## 1. Docker
 
 ### Практика:
 
+- Dockerfile, multi-stage build
+- Healthcheck
+- Ограничение ресурсов
+- Проверка слоев через `docker history`
+- Несколько экземпляров контейнера
 
+📚 Документация:
 
-- Написать Dockerfile для backend приложения
-
-- Сделать multi-stage build
-
-- Оптимизировать размер образа
-
-- Проверить слои через `docker history`
-
-- Настроить healthcheck
-
-
+- https://docs.docker.com  
 
 ---
-
-
 
 ## 2. Docker Compose
 
-
-
 ### Практика:
 
+- Стек: backend + postgres + redis + nginx
+- Volumes, internal network, env переменные
+- Перезапуск при падении
 
+📚 Документация:
 
-Собрать стек:
-
-
-
-- backend
-
-- postgres
-
-- redis
-
-- nginx
-
-
-
-Добавить:
-
-- volumes
-
-- internal network
-
-- env переменные
-
-
-
-Проверить перезапуск контейнера при падении.
-
-
+- https://docs.docker.com/compose/  
 
 ---
-
-
 
 ## 3. Registry
 
-
-
 ### Практика:
 
-
-
-- Развернуть приватный registry
-
-- Настроить push/pull
-
-- Настроить авторизацию
-
-
+- Приватный registry
+- Push/pull
+- Авторизация
 
 ---
 
-
-
-🎯 Итог: можешь контейнеризировать production-сервис.
-
-
+🎯 Итог: контейнеризация production-ready.
 
 ---
-
-
 
 # 🟢 Шаг 3 (Месяц 3). Kubernetes
 
-
-
-## 1. Kubernetes (оркестрация контейнеров)
-
-
+## 1. Kubernetes
 
 ### Практика:
 
+- Minikube
+- Deployment, Service, ConfigMap, Secret
+- Rolling update + rollback
+- CPU/memory limits
 
+📚 Документация:
 
-- Развернуть кластер через Minikube
-
-- Написать:
-
-&nbsp; - Deployment
-
-&nbsp; - Service
-
-&nbsp; - ConfigMap
-
-&nbsp; - Secret
-
-- Обновить приложение через rolling update
-
-- Проверить rollback
-
-
+- https://kubernetes.io/docs  
 
 ---
-
-
 
 ## 2. Ingress
 
+### Практика:
 
+- nginx ingress controller
+- Host-based routing
+- TLS
+
+📚 Документация:
+
+- https://kubernetes.io/docs/concepts/services-networking/ingress/  
+
+---
+
+## 3. HPA
 
 ### Практика:
 
+- Настроить CPU requests/limits
+- Нагрузочный тест через k6
+- Scale up / scale down
 
+📚 Документация:
 
-- Установить nginx ingress controller
-
-- Настроить host-based routing
-
-- Подключить TLS
-
-
+- https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/  
 
 ---
-
-
-
-## 3. HPA (автомасштабирование)
-
-
-
-### Практика:
-
-
-
-- Настроить CPU limits
-
-- Запустить нагрузку через k6
-
-- Проверить scale up / down
-
-
-
----
-
-
-
-🎯 Итог: ты умеешь поддерживать k8s-приложение.
-
-
-
----
-
-
 
 # 🟢 Шаг 4 (Месяц 4). CI/CD и IaC
 
-
-
 ## 1. CI/CD
 
-
-
 ### Практика:
 
+- Pipeline: lint → test → build → push → deploy
+- Manual approval stage
+- Version tagging
+- Rollback job
 
+📚 Документация:
 
-Сделать pipeline:
-
-
-
-- lint
-
-- test
-
-- build docker image
-
-- push в registry
-
-- deploy в k8s
-
-
-
-Добавить:
-
-- manual approval stage
-
-- version tagging
-
-
+- GitHub Actions docs — https://docs.github.com/actions  
+- GitLab CI docs — https://docs.gitlab.com/ee/ci/  
+- Jenkins docs — https://www.jenkins.io/doc/  
 
 ---
 
-
-
-## 2. Terraform (Infrastructure as Code)
-
-
+## 2. Terraform
 
 ### Практика:
 
+- VPC, EC2, Security Groups
+- Modules
+- State в S3
+- Remote locking
 
+📚 Документация:
 
-- Поднять:
-
-&nbsp; - VPC
-
-&nbsp; - EC2
-
-&nbsp; - Security Group
-
-- Разделить на modules
-
-- Хранить state в S3
-
-- Добавить remote locking
-
-
+- https://developer.hashicorp.com/terraform/docs  
 
 ---
-
-
 
 ## 3. Ansible
 
-
-
 ### Практика:
 
-
-
-- Написать playbook:
-
-&nbsp; - установка Docker
-
-&nbsp; - настройка пользователя
-
-- Использовать inventory
-
+- Playbook для установки Docker и пользователя
+- Inventory
 - Развернуть 3 сервера
 
+📚 Документация:
 
-
----
-
-
-
-🎯 Итог: ты можешь развернуть инфраструктуру автоматически.
-
-
+- https://docs.ansible.com/  
 
 ---
-
-
 
 # 🟢 Шаг 5 (Месяц 5). Cloud и Observability
 
-
-
 ## 1. AWS
-
-
 
 ### Практика:
 
+- EC2, IAM, Load Balancer
+- Auto Scaling
+- HTTPS через ACM
 
+📚 Документация:
 
-- Поднять EC2
-
-- Настроить IAM роли
-
-- Настроить Load Balancer
-
-- Подключить Auto Scaling
-
-
+- https://docs.aws.amazon.com  
 
 ---
-
-
 
 ## 2. Prometheus + Grafana
 
-
-
 ### Практика:
 
+- Установка через Helm
+- Node exporter
+- Dashboard: CPU, Memory, Pods
+- Alerting (Telegram/email)
+- Отказ pod
 
+📚 Документация:
 
-- Установить через Helm
-
-- Добавить node exporter
-
-- Настроить dashboard:
-
-&nbsp; - CPU
-
-&nbsp; - Memory
-
-&nbsp; - Pods
-
-- Настроить alert в Telegram
-
-
+- Prometheus — https://prometheus.io/docs/  
+- Grafana — https://grafana.com/docs/  
 
 ---
-
-
 
 ## 3. ELK
 
-
-
 ### Практика:
 
+- Elasticsearch
+- Filebeat
+- Централизованные логи
+- Фильтр error-level
+- Поиск ошибки при падении
 
+📚 Документация:
 
-- Поднять Elasticsearch
-
-- Настроить Filebeat
-
-- Настроить централизованные логи
-
-- Сделать фильтр по error-level
-
-
-
----
-
-
-
-🎯 Итог: умеешь мониторить production.
-
-
+- Elasticsearch — https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html  
+- Kibana — https://www.elastic.co/guide/en/kibana/current/index.html  
 
 ---
-
-
 
 # 🟢 Шаг 6 (Месяц 6). Production
 
-
-
 ## 1. High Availability
-
-
 
 ### Практика:
 
-
-
 - 2 replicas backend
-
 - LoadBalancer
-
-- Проверить отказ одного pod
-
-
-
----
-
-
+- Отказ pod / ноды
 
 ## 2. Blue/Green deploy
 
-
-
 ### Практика:
 
-
-
-- Развернуть 2 версии приложения
-
-- Переключать трафик через ingress
-
-
-
----
-
-
+- 2 версии приложения
+- Переключение трафика через ingress
+- Откат при ошибке
 
 ## 3. Canary deploy
 
-
-
 ### Практика:
 
-
-
-- Отправлять 10% трафика на новую версию
-
-- Анализировать метрики
-
-
+- 10% трафика на новую версию
+- Метрики
+- Автоматический rollback
 
 ---
-
-
 
 # 🏗 Финальный Production Pet-Project
 
-
-
-Собрать:
-
-
-
-- Backend API
-
-- Postgres
-
-- Docker
-
-- Kubernetes
-
+- Backend API + Postgres
+- Docker + Kubernetes
 - CI/CD
-
-- Terraform (инфраструктура)
-
-- Мониторинг
-
-- Логирование
-
+- Terraform
+- Мониторинг + Логирование
 - TLS
-
-- README с архитектурной схемой
-
-
-
-Разместить на GitHub.
-
-
+- README + архитектурная схема
+- Разместить на GitHub
 
 ---
 
+# 🎥 YouTube-каналы
 
+## Англоязычные
 
-# 🎯 Результат через 6 месяцев
+- TechWorld with Nana — Docker, Kubernetes, CI/CD  
+- Bret Fisher — Docker, DevOps  
+- KodeKloud — Kubernetes, CKA  
+- DevOps Toolkit  
+- Google Cloud Tech  
+- AWS Events  
 
+## Русскоязычные
 
+- ADV-IT  
+- DevOps by Rebrain  
+- Слёрм  
+- IT-KAMASUTRA  
+- Hexlet  
+- fakng-engineer
 
-Вы будете:
+---
 
+# 💼 Собеседования / компании
 
+### Минск (Беларусь):
 
-- Поднимать инфраструктуру с нуля
+- EPAM — DevOps Engineer / Platform Engineer  
+- ITechArt — DevOps / Cloud Engineer  
+- Intetics — Remote-friendly DevOps  
+- ScienceSoft — Cloud/DevOps Engineer  
 
-- Деплоить через CI/CD
+### Онлайн / Remote-friendly:
 
-- Работать с Kubernetes
+- GitLab — Remote DevOps roles  
+- Red Hat — DevOps/SRE  
+- HashiCorp — Terraform Engineer  
+- Amazon AWS — Cloud/DevOps  
+- Google Cloud — SRE / DevOps  
 
-- Настраивать мониторинг
+Совет: подготовка к собеседованию через LeetCode (for algorithms), System Design Interviews, и практические задачи на CI/CD + Kubernetes.
 
-- Поддерживать отказоустойчивость
-
-- Понимать production-инженерию
-
+---
